@@ -70,19 +70,39 @@ export default function Home() {
         </div>
 
       </div>
-        <div className={style.box}>
-          <div className={style.block_1}>
-            <div className={style.imgfoto}></div>
-            <div>
-              
-            </div>
-          </div>
 
-          <div className={style.block_2}>
-            <div className={style.imgfoto_1}></div>
-            <div></div>
+      <div className={style.box}>
+        <div className={style.block_1}>
+          <div className={style.img_1}></div>
+          <div>
+            <h3>Образование</h3>
+            <p>Коледж</p>
+            <p>Академия</p>
+          </div>
+          <div>
+
           </div>
         </div>
+
+        <div className={style.block_2}>
+          <div className={style.img_2}></div>
+          <div>
+            <h3>Языки</h3>
+            <p>Английский</p>
+            <p>Русский</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div className={style.icon}>
+        <div className={style.img_3}></div>
+        <div className={style.portfolio}>
+          <h2>Мой портфолио на Dribble</h2>
+          <p>dribbble.com/pashbe</p>
+        </div>
+      </div>
+
     </div>
   );
 }
